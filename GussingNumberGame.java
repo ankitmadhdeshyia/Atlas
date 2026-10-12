@@ -21,7 +21,7 @@ public class GussingNumberGame{
        }else if(num1<num2){
         System.out.println("Too Low Try Again");
        }else{
-        System.out.println("Too high try again");
+        System.out.println("Too high try again enter another number")
        }
       
      
