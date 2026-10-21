@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.constructorinjection.Test",
+            "projectName": "springcore"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "com.springcore.ref.Test",
+            "projectName": "springcore"
+        },
+        {
+            "type": "java",
+            "name": "Appl",
+            "request": "launch",
+            "mainClass": "com.springcorecollection.Appl",
+            "projectName": "springcore"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-App<springcore>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
