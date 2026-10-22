@@ -4,6 +4,13 @@
             "type": "java",
             "name": "Test",
             "request": "launch",
+            "mainClass": "com.springcoreLifecycle.Test",
+            "projectName": "springcore"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
             "mainClass": "com.constructorinjection.Test",
             "projectName": "springcore"
         },

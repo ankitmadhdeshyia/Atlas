@@ -7,6 +7,12 @@ public class Person {
     public Person() {
     }
     
+    public Person(String name, int persionId, Certi certi) {
+        this.name = name;
+        this.persionId = persionId;
+        this.certi = certi;
+    }
+
     @Override
     public String toString() {
         return this.name+" : " +this.persionId+ " {" +this.certi.name+"}";

@@ -9,6 +9,11 @@ public class Test {
         ApplicationContext app=new ClassPathXmlApplicationContext("com/constructorinjection/Ciconfif.xml");
         Person p=(Person)app.getBean("person");
         System.out.println(p);
+
+        addition ad=(addition)app.getBean("add");
+       ad.doSum();
+
+
     }
 }
 

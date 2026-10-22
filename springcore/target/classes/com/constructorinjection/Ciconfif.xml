@@ -10,15 +10,21 @@
 
    
     <bean class="com.constructorinjection.Certi"  name="certifi">
-      <constructor-arg value="Android usnig"/>
+      <constructor-arg value="Android usnig Kotlin"/>
     </bean>
   <bean class="com.constructorinjection.Person" name="person">
-    <!-- <constructor-arg>
-      <value>Ankit</value>
-    </constructor-arg> -->
+                                             <!-- <constructor-arg>
+                                        <value>Ankit</value>
+                                            </constructor-arg> -->
     <constructor-arg value="Ankit"/>
     <constructor-arg value="121"/>
     <constructor-arg ref="certifi"/>
+  </bean>
+
+  <bean class="com.constructorinjection.addition" name="add">
+   
+    <constructor-arg value="12" type="double" index="1"/> 
+   <constructor-arg value="34"  type="double" index="0"/>
   </bean>
   
 
